@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 @font-face {
     font-family: 'android1';
-    src: url('C://users/Pichau/documents/repos/site/projeto-android-2/fontes/idroid.otf') format(opentype);
+    src: url('../fontes/idroid.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #84E1AD;
     margin: 0;
 }
 
@@ -128,7 +128,7 @@ menu > #menu02 {
     max-height: 200px;
     width: auto;
     height: auto;
-    border: 1px solid #000000;
+    border: 1px solid rgba(3, 122, 23, 0.658);
     transition: background-color 0.9s ease;
 }
 
@@ -141,7 +141,7 @@ a {
     color: rgb(56, 54, 54);
     text-decoration: none;
     font-family: Roboto, sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     font-size: 14px;
 }
@@ -157,7 +157,7 @@ a {
 }
 
 .transicao01:visited {
-    color: white;
+    color: rgb(56, 54, 54);
 }
 
 main {

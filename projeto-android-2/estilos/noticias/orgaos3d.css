@@ -1,0 +1,211 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3BD37F, #1A5C38);
+    max-height: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#titulo01 {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+
+    text-shadow: 1px 1px 1px black;
+
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#paragrafo01 {
+    margin-bottom: 14px;
+
+    text-shadow: 1px 1px 1px black;
+
+    text-align: center;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+menu {
+    background-color: none;
+    max-width: 45px;
+    margin-right: auto;
+    margin-left: -35px;
+    margin-bottom: 0px;
+    position: relative;
+    transition: background-color 0.9s ease;
+}
+
+menu > #menu02 {
+    display: none;
+}
+
+#menu01 {
+    border-radius: 10px;
+    background-color: none;
+    transition: background-color 0.3s ease;
+}
+
+#menu02:hover {
+    background-color: #3BD37F;
+}
+
+#menu01:hover {
+    background-color: #3BD37F;
+}
+
+#menu02 {
+    background-color: rgb(101, 231, 127);
+    justify-content: flex-start;
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(3, 122, 23, 0.658);
+    transition: background-color 0.9s ease;
+}
+
+menu:hover > #menu02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.transicao01 {
+    background-color: none;
+    transition: background-color 0.9s;
+    padding: 10px;
+    color: rgb(56, 54, 54);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.transicao01:hover {
+    background-color: #179e54;
+}
+
+.transicao01:visited {
+    color: rgb(56, 54, 54);
+}
+
+main {
+    background-color: white;
+    max-width: 829px;
+    width: auto;
+    height: auto;
+
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#titulo02 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    background-color: #179e54;
+    text-shadow: 1px 1px 1px white;
+    border-bottom: 2px solid black;
+    
+    margin: 0;
+}
+
+#paragrafo02 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(143, 132, 132);
+}
+
+.cite01 {
+    margin-left: 15px;
+}
+
+.paragrafo {
+    font-family: Roboto, sans-serif;
+
+    margin-left: 15px;
+}
+
+.cite {
+    display: block;
+    text-align: center;
+}
+
+.container01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15px;
+
+    background-color: #3BD37F;
+}
+
+.img01 {
+    display: block;
+
+    max-width: 100%;
+    width: auto;
+    height: auto;
+
+    border-radius: 5px;
+}
+
+.subtitulo01 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.span01 {
+    display: block;
+
+    padding-left: 15px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #1A5C38;
+    max-width: 100%;
+    height: 45px;
+
+    margin: 0;
+}
+
+.footer01 {
+    color: white;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    
+    padding-top: 13px;
+}
